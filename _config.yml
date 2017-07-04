@@ -1,10 +1,9 @@
-permalink: /blog/:year/:month/:day/:title
-
 name: Luxiush1
 title: Luxiush2
 markdown: redcarpet
 exclude:
   - README.markdown
+  - README.md
   - Rakefile
   - Gemfile
   - Gemfile.lock
