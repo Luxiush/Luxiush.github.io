@@ -1,1 +1,45 @@
 permalink: /blog/:year/:month/:day/:title
+
+name: Luxiush1
+title: Luxiush2
+markdown: redcarpet
+exclude:
+  - README.markdown
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - .ruby-version
+  - .ruby-gemset
+  - .gitignore
+  - .travis.yml
+  - bin/*
+gems:
+  - jekyll-assets
+  - jekyll-feed
+timezone: China/Beijing
+
+feed:
+  path: atom.xml
+
+author:
+  github: Luxiush
+
+assets:
+  css_compressor: sass
+  js_compressor: uglifier
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+
+links:
+  - title: About
+    url: /about
+  - title: Github
+    url: https://github.com/Luxiush
+    external: true
+  - title: Reference
+    url: https://github.com/martinisoft
+    external: true
+
